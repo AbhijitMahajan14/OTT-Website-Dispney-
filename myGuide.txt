@@ -1,0 +1,5 @@
+1) style-components - javascript+css
+
+2) we have 3 pages - home, login and details
+
+3) for slider we are going to use react slick
