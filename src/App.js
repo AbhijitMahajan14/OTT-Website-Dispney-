@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header.js';
 import Home from './components/Home.js';
 import Detail from './components/Detail.js';
+import Login from './components/Login.js';
 import {
   BrowserRouter as Router,
   Routes,
@@ -18,7 +19,7 @@ function App() {
 
           <Route path="/" element={<Home />}/>
           <Route path="/detail" element={<Detail />} />
-           
+          <Route path="/login" element={<Login />} />
         </Routes>
       </Router>
 
